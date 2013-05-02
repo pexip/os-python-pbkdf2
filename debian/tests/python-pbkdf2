@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -eu
+
+WORKDIR=$(mktemp -d)
+cp -r test "$WORKDIR/"
+cd "$WORKDIR/"
+
+for python in $(pyversions -i); do
+   PYTHONWARNINGS=d $python -m unittest discover -s test/ 2>&1
+done

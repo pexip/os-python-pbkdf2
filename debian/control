@@ -1,0 +1,54 @@
+Source: python-pbkdf2
+Section: python
+Priority: optional
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Alessio Treglia <alessio@debian.org>
+Build-Depends:
+ debhelper (>= 9~),
+ python-all,
+ python-setuptools,
+ python3-all,
+ python3-setuptools
+X-Python-Version: >= 2.6
+X-Python3-Version: >= 3.2
+XS-Testsuite: autopkgtest
+Standards-Version: 3.9.4
+Homepage: http://www.dlitz.net/software/python-pbkdf2/
+Vcs-Git: git://anonscm.debian.org/collab-maint/python-pbkdf2.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/python-pbkdf2.git
+
+Package: python-pbkdf2
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${python:Depends}
+Description: Python RSA PKCS#5 v2.0 module (Python 2)
+ This module implements the password-based key derivation
+ function, PBKDF2, specified in RSA PKCS#5 v2.0.
+ .
+ PKCS#5 v2.0 Password-Based Key Derivation is a key derivation
+ function which is part of the RSA Public Key Cryptography
+ Standards series. The provided implementation takes a password
+ or a passphrase and a salt value (and optionally a iteration
+ count, a digest module, and a MAC module) and provides a file-like
+ object from which an arbitrarly-sized key can be read.
+ .
+ This is the Python 2 version of the package.
+
+Package: python3-pbkdf2
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${python3:Depends}
+Description: Python RSA PKCS#5 v2.0 module (Python 3)
+ This module implements the password-based key derivation
+ function, PBKDF2, specified in RSA PKCS#5 v2.0.
+ .
+ PKCS#5 v2.0 Password-Based Key Derivation is a key derivation
+ function which is part of the RSA Public Key Cryptography
+ Standards series. The provided implementation takes a password
+ or a passphrase and a salt value (and optionally a iteration
+ count, a digest module, and a MAC module) and provides a file-like
+ object from which an arbitrarly-sized key can be read.
+ .
+ This is the Python 3 version of the package.

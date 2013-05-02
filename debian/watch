@@ -1,0 +1,5 @@
+version=3
+opts="dversionmangle=s/~ds.*//" \
+http://pypi.python.org/packages/source/p/pbkdf2/ \
+	pbkdf2-(.*)\.tar\.gz \
+	debian sh debian/repack.stub

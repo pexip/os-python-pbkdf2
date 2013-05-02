@@ -1,0 +1,3 @@
+SUFFIX=~ds0
+rm debian/
+rm pbkdf2.egg-info/

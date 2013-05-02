@@ -1,0 +1,5 @@
+Tests: python-pbkdf2
+Depends: python-pbkdf2
+
+Tests: python3-pbkdf2
+Depends: python3-pbkdf2
