@@ -1,3 +1,9 @@
+python-pbkdf2 (1.3+20110613.git2a0fb15~ds0-2ubuntu1pexip1) precise; urgency=low
+
+  * Package for Pexip.
+
+ -- Alan Ford <alan@pexip.com>  Tue, 02 Jul 2013 14:52:51 +0100
+
 python-pbkdf2 (1.3+20110613.git2a0fb15~ds0-2ubuntu1) saucy; urgency=low
 
   * autopkgtests: Redirect stderr to stdout.

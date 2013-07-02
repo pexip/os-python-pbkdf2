@@ -1,13 +1,13 @@
 Source: python-pbkdf2
 Section: python
 Priority: optional
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Maintainer: Pexip AS <packaging@pexip.com>
 XSBC-Original-Maintainer: Alessio Treglia <alessio@debian.org>
 Build-Depends:
  debhelper (>= 9~),
- python-all,
+ python,
  python-setuptools,
- python3-all,
+ python3,
  python3-setuptools
 X-Python-Version: >= 2.6
 X-Python3-Version: >= 3.2
